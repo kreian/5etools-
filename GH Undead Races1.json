@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Lichkin",
-				"abbreviation": "Lichkin",
-				"full": "Lichkins; servants of these evil beings, the lichs",
+				"json": "LichkinGH",
+				"abbreviation": "Lchkn",
+				"full": "Lichkins",
 				"authors": [
 					"Gremio Horizonte"
 				],
@@ -611,9 +611,7 @@
 			"age": {
 				"mature": 16,
 				"max": 1000
-			},
-			"raceName": "Zombie",
-			"raceSource": "ZombieGH"
+			}
 		}
 		]
 	}
