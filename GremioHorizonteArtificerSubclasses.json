@@ -191,6 +191,7 @@
 				}
 			]
 		},
+		[
 		{
 			"name": "Weapon Master",
 			"source": "ASDFS",
@@ -202,20 +203,16 @@
 			"level": 3,
 			"entries": [
 				"A weapons master is a type of craftsman who masters forging and the complexity of arcane engineering to break out of the molds of normal weapons and create truly unique works of engineering, capable of things that other weapons cannot."
-			{	
+			]	
 				"type": "entries",
 				"name": "Tool Proficiency",
 				"entries": [
 					"When you adopt this specialization at 3rd level, you gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
 				]
-			},
-			{
 				"type": "entries",
 				"name": "Martial Training",
 				"entries": [
 					"When you reach 3rd level, you gain proficiency with martial weapons and when you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
-				]
-			},
 				]
 		},
 		{
@@ -230,8 +227,6 @@
 			"entries": [
 				"At level 15 you further improve your ability to harness the remaining energy of your spells. You start the day with 3 stored charges and the maximum you can reach increases to 8, although you still cannot spend more than 5 at a time on a skill.",
 				"Once per turn you can use any number of charges you want to do the following effects:"
-			]
-		},
 				{
 					"type": "list",
 					"items": [
@@ -240,6 +235,8 @@
 						"Assisted Strike: The initial bonus changes from +2 to +4 and you gain advantage using 3 charges.",
 						"Energy contained: Now if you spend at least 3 charges, you add your proficiency bonus to the roll once again whether or not you are proficient in the skill. This modification cannot be used if you already have expertise."
 					]
+				}
+			]
 		},
 		{
 			"name": "Perfected Craftsmanship",
@@ -277,6 +274,7 @@
 				"Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn."
 			]
 		},	
+		[
 		{
 			"name": "Master Craftsman",
 			"source": "ASDFS",
@@ -290,8 +288,7 @@
 				"Starting at 3rd level, you can add the following properties to any melee weapon or shield as long as it is magical or you apply an artificer infusion to it. The properties are divided into special and common infusions, a different type of artificer infusion, you can distribute them as you want as long as you do not exceed the maximum total of modifications. Furthermore, infusions cannot be repeated in any weapon.",
 				"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest.",
 				"Special infusions:."
-			]
-			{
+			],
 					"type": "table",
 					"caption": "Infusions",
 					"colLabels": [
@@ -406,7 +403,8 @@
 						"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
 					]
 				},
-		},
+		],
+	],	
 		{
 			"name": "Apocalyptic Metamorphosis",
 			"source": "ASDFS",
