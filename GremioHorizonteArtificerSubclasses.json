@@ -334,9 +334,9 @@
 								"Reduce its speed by half.",
 								"Push it 10 ft."
 							],
-						"entries": [
-							"You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
-						]
+							"entries": [
+								"You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
+							]
 						},
 						{
 							"entries": [
