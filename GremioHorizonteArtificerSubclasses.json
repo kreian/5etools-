@@ -203,7 +203,9 @@
 			"level": 3,
 			"entries": [
 				"A weapons master is a type of craftsman who masters forging and the complexity of arcane engineering to break out of the molds of normal weapons and create truly unique works of engineering, capable of things that other weapons cannot."
-			]	
+			]
+		},
+			{
 				"type": "entries",
 				"name": "Tool Proficiency",
 				"entries": [
@@ -214,7 +216,8 @@
 				"entries": [
 					"When you reach 3rd level, you gain proficiency with martial weapons and when you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
 				]
-		},
+			}
+		]
 		{
 			"name": "Craftsmanship Perfected Beyond!",
 			"source": "ASDFS",
