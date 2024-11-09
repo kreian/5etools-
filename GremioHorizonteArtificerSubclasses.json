@@ -264,8 +264,6 @@
 						"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
 					]
 		},
-		],
-		[
 		{
 			"name": "Extra Attack",
 			"source": "ASDFS",
