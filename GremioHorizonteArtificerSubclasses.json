@@ -329,10 +329,10 @@
 						"Capture System: As an action you make an attack with the weapon that has this infusion, on a successful hit you force the creature to make a Dexterity saving throw against your artificer spell DC. On a failed save, the creature is trapped by your weapon and is restrained by this way. If the attack is a melee weapon attack you can choose whether to keep the weapon in your hands or fix it 5 ft from the creature at a point of your choice, if it is a range attack with a thrown weapon you can only choose the last option. The trapped creature can still use its movement and move within the range of the weapon, until the effect ends the weapon cannot be used for any type of action and interaction, a trapped creature receives a number of d4 equal to your PB of lightning damage at the start of its turn.",
 						"Reinforced structure: Once per turn when you hit with an attack, you can activate this effect, you do an extra d4 of weapon damage and you also force whoever you hit to make a Strength saving throw against your artificer spell DC. On a successful save, it doesn't suffer any effect, and on a failed one, you choose between:",
 						{
-						"type": "list",
-						"items": [
-							"Reduce its speed by half.",
-							"Push it 10 ft."
+							"type": "list",
+							"items": [
+								"Reduce its speed by half.",
+								"Push it 10 ft."
 							]
 						}
 					]
