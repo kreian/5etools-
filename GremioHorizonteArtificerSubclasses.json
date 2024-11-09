@@ -290,7 +290,7 @@
 				"Starting at 3rd level, you can add the following properties to any melee weapon or shield as long as it is magical or you apply an artificer infusion to it. The properties are divided into special and common infusions, a different type of artificer infusion, you can distribute them as you want as long as you do not exceed the maximum total of modifications. Furthermore, infusions cannot be repeated in any weapon.",
 				"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest.",
 				"Special infusions:."
-			],
+			]
 		},
 				{
 					"type": "table",
