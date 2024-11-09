@@ -191,7 +191,6 @@
 				}
 			]
 		},
-		[
 		{
 			"name": "Weapon Master",
 			"source": "ASDFS",
@@ -202,10 +201,7 @@
 			"subclassSource": "ASGH",
 			"level": 3,
 			"entries": [
-				"A weapons master is a type of craftsman who masters forging and the complexity of arcane engineering to break out of the molds of normal weapons and create truly unique works of engineering, capable of things that other weapons cannot."
-			]
-		},
-		[
+				"A weapons master is a type of craftsman who masters forging and the complexity of arcane engineering to break out of the molds of normal weapons and create truly unique works of engineering, capable of things that other weapons cannot.",
 			{
 				"type": "entries",
 				"name": "Tool Proficiency",
@@ -220,8 +216,8 @@
 					"When you reach 3rd level, you gain proficiency with martial weapons and when you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
 				]
 			}
-		],
-		[
+			]
+		},
 		{
 			"name": "Craftsmanship Perfected Beyond!",
 			"source": "ASDFS",
@@ -233,21 +229,18 @@
 			"level": 15,
 			"entries": [
 				"At level 15 you further improve your ability to harness the remaining energy of your spells. You start the day with 3 stored charges and the maximum you can reach increases to 8, although you still cannot spend more than 5 at a time on a skill.",
-				"Once per turn you can use any number of charges you want to do the following effects:"
-			],
-				{
-					"type": "list",
-					"items": [
-						"Paralyzing blow: When you have used this feature, your weapon is bathed in energy, until the end of your next turn, your weapon deals 1d8 lightning damage on each hit.",
-						"Emergency Shield: Now as long as you have the temporary hit points of this feature, you gain resistances to bludgeoning, slashing and piercing damage if you have spent a minimum of 3 charges in the reaction.",
-						"Assisted Strike: The initial bonus changes from +2 to +4 and you gain advantage using 3 charges.",
-						"Energy contained: Now if you spend at least 3 charges, you add your proficiency bonus to the roll once again whether or not you are proficient in the skill. This modification cannot be used if you already have expertise."
-					]
-				}
+				"Once per turn you can use any number of charges you want to do the following effects:",
+			{
+				"type": "list",
+				"items": [
+					"Paralyzing blow: When you have used this feature, your weapon is bathed in energy, until the end of your next turn, your weapon deals 1d8 lightning damage on each hit.",
+					"Emergency Shield: Now as long as you have the temporary hit points of this feature, you gain resistances to bludgeoning, slashing and piercing damage if you have spent a minimum of 3 charges in the reaction.",
+					"Assisted Strike: The initial bonus changes from +2 to +4 and you gain advantage using 3 charges.",
+					"Energy contained: Now if you spend at least 3 charges, you add your proficiency bonus to the roll once again whether or not you are proficient in the skill. This modification cannot be used if you already have expertise."
+				]
+			}
 			]
-		}
-		],
-		[
+		},
 		{
 			"name": "Perfected Craftsmanship",
 			"source": "ASDFS",
