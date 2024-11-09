@@ -263,9 +263,7 @@
 						"Assisted Strike: With a bonus action, you energize your weapon using at least one charge to make it extremely precise, on your next attack you add a +2 bonus to the attack, for each extra charge you use you add an extra +1 to the attack. If you spend 5 charges you make the attack with advantage.",
 						"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
 					]
-				}
-			]
-		},
+				},
 		{
 			"name": "Extra Attack",
 			"source": "ASDFS",
