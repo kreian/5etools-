@@ -220,7 +220,8 @@
 					"When you reach 3rd level, you gain proficiency with martial weapons and when you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
 				]
 			}
-		]
+		],
+		[
 		{
 			"name": "Craftsmanship Perfected Beyond!",
 			"source": "ASDFS",
@@ -243,7 +244,9 @@
 					]
 				}
 			]
-		},
+		}
+		],
+		[
 		{
 			"name": "Perfected Craftsmanship",
 			"source": "ASDFS",
@@ -258,7 +261,7 @@
 				"Once per turn you can use any number of charges you want to do the following effects:"
 			]
 		},
-				{
+		{
 					"type": "list",
 					"items": [
 						"Paralyzing blow: When you hit with an attack you can use the amount of charges you want to power your attack, you do an extra 1d8 lightning damage for each charge you consume. If you use at least 3 charges you force the creature to make a Strength saving throw against your artificer spell DC. On a failed save, the creature is prone and receives the damage. On a successful one, it does not suffer any effect but it receives the damage. If you use the 5 charges the creature makes the seving throw with disadvantage.",
@@ -266,7 +269,9 @@
 						"Assisted Strike: With a bonus action, you energize your weapon using at least one charge to make it extremely precise, on your next attack you add a +2 bonus to the attack, for each extra charge you use you add an extra +1 to the attack. If you spend 5 charges you make the attack with advantage.",
 						"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
 					]
-				},
+		},
+		],
+		[
 		{
 			"name": "Extra Attack",
 			"source": "ASDFS",
@@ -279,8 +284,7 @@
 			"entries": [
 				"Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn."
 			]
-		},	
-		[
+		},
 		{
 			"name": "Master Craftsman",
 			"source": "ASDFS",
@@ -293,8 +297,8 @@
 			"entries": [
 				"Starting at 3rd level, you can add the following properties to any melee weapon or shield as long as it is magical or you apply an artificer infusion to it. The properties are divided into special and common infusions, a different type of artificer infusion, you can distribute them as you want as long as you do not exceed the maximum total of modifications. Furthermore, infusions cannot be repeated in any weapon.",
 				"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest.",
-				"Special infusions:."
-			],
+				"Special infusions:.",
+				{
 					"type": "table",
 					"caption": "Infusions",
 					"colLabels": [
@@ -337,7 +341,10 @@
 							"Reduce its speed by half.",
 							"Push it 10 ft."
 							]
-				"You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
+				},
+				{
+					"entries": [
+					"You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
 					]
 				},
 				{
@@ -372,6 +379,8 @@
 							"special, loading (basket)"
 						]
 					],
+				},
+				{
 					"footnotes": [
 						"Range. A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
 						"Ammunition. You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition, up to a maximum of 6 bullets, after that the weapon must be reloaded with the Loading property.",
@@ -379,38 +388,37 @@
 						"Special: You can use ammunition of any type (arrows, sling bullets, or firearm bullets) the weapon converts them into useful ammunition and if you have the magic stone cantrip you can infuse 3 ammunition that becomes a d6 + Intelligence modifier and has a range of 60 ft"
 					]
 				},
-			{
-				"entries": [
-				"Shield of the Guardian: With a shield that has this infusion on your turn as a bonus action, you anchor next to your shield in the position you are in, your movement speed is reduced to 0, your shield stops applying AC and in return any creature that you you choose within 10ft behind of you receives the half cover effects until the beginning of your next turn. You can use this upgrade a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
-				"Arcane Shield: This shield is worn on the arm like a bracelet. It can be activated and deactivated with an object interaction this will count as don and doff your shield making your hand free. While it is active you can use your reaction to add your Intelligence modifier to your AC for the triggering attack. You can use this reaction a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
-				"Alchemical Enhancement: During a long rest, you can store a number of vials equal to you PB to store in your weapon, once per turn when you hit an enemy you can choose to spend one of the stored vials.",
-				"You can spend a number of vials equal to your PB for long rest."
-				],
-			},
 				{
-					"type": "list",
-					"items": [
-						"- Vial of acid: On impact you apply 2d4 acid damage to the creature",
-						"- Vial of Poison: Forces the creature to a constitution save, on a failure the creature is poisoned, blinded or deafened (your choice) until the start of your next turn, on a success the creature suffers no effect.",
-						"- Vial of alchemical fire: On a hit you ignite a creature. At the start of its turn, it takes 1d6 fire damage and loses 5 feet of movement, the creature can use an action to put out the fire by passing a Dexterity save against your artificer spell DC."					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
+					"entries": [
+					"Shield of the Guardian: With a shield that has this infusion on your turn as a bonus action, you anchor next to your shield in the position you are in, your movement speed is reduced to 0, your shield stops applying AC and in return any creature that you you choose within 10ft behind of you receives the half cover effects until the beginning of your next turn. You can use this upgrade a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
+					"Arcane Shield: This shield is worn on the arm like a bracelet. It can be activated and deactivated with an object interaction this will count as don and doff your shield making your hand free. While it is active you can use your reaction to add your Intelligence modifier to your AC for the triggering attack. You can use this reaction a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
+					"Alchemical Enhancement: During a long rest, you can store a number of vials equal to you PB to store in your weapon, once per turn when you hit an enemy you can choose to spend one of the stored vials.",
+					"You can spend a number of vials equal to your PB for long rest.",
+					{
+						"type": "list",
+						"items": [
+							"- Vial of acid: On impact you apply 2d4 acid damage to the creature",
+							"- Vial of Poison: Forces the creature to a constitution save, on a failure the creature is poisoned, blinded or deafened (your choice) until the start of your next turn, on a success the creature suffers no effect.",
+							"- Vial of alchemical fire: On a hit you ignite a creature. At the start of its turn, it takes 1d6 fire damage and loses 5 feet of movement, the creature can use an action to put out the fire by passing a Dexterity save against your artificer spell DC."					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
+						]
+					},
+					{
+					"entries": [
+						"Portable Focus: The weapon you carry can be used as an arcane focus. Additionally, once per day you can use the weapon's accumulated energy to cast a spell without the need for verbal or somatic components."
+						"Special infusions:.",
 					]
-				},
-				{
-				"entries": [
-					"Portable Focus: The weapon you carry can be used as an arcane focus. Additionally, once per day you can use the weapon's accumulated energy to cast a spell without the need for verbal or somatic components."
-					"Special infusions:.",
-				]
-					"type": "list",
-					"items": [
-						"Light: An easy-to-use light weapon, making it ideal for fighting with 2 weapons (Cannot be infused if the weapon has the heavy property)",
-						"Thrown: A weapon with this infusion gives you the ability to make a ranged attack at the ranges of (15/30). If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
-						"Magnetism: As an action you can cause the weapon to return to your hands with this property, as long as it is on the same plane of existence as you.",
-						"Versatile: You have the ability to use this weapon two-handed and increase the damage die (A d4→d6→d8→d10→d12). (Cannot be used if the weapon has the light or two handed property).",
-						"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
+						"type": "list",
+						"items": [
+							"Light: An easy-to-use light weapon, making it ideal for fighting with 2 weapons (Cannot be infused if the weapon has the heavy property)",
+							"Thrown: A weapon with this infusion gives you the ability to make a ranged attack at the ranges of (15/30). If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
+							"Magnetism: As an action you can cause the weapon to return to your hands with this property, as long as it is on the same plane of existence as you.",
+							"Versatile: You have the ability to use this weapon two-handed and increase the damage die (A d4→d6→d8→d10→d12). (Cannot be used if the weapon has the light or two handed property).",
+							"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
+						]
+					}
 					]
-				},
-		],
-	],	
+				}
+		},
 		{
 			"name": "Apocalyptic Metamorphosis",
 			"source": "ASDFS",
