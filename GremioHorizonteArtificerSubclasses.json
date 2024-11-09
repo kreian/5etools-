@@ -230,6 +230,7 @@
 			"entries": [
 				"At level 15 you further improve your ability to harness the remaining energy of your spells. You start the day with 3 stored charges and the maximum you can reach increases to 8, although you still cannot spend more than 5 at a time on a skill.",
 				"Once per turn you can use any number of charges you want to do the following effects:",
+		}
 				{
 					"type": "list",
 					"items": [
@@ -251,6 +252,7 @@
 			"entries": [
 				"At 9th level, you learn to use the energy of your spells, transforming it into energy that you can use in combat. You can use your bonus action to consume a spell slot gaining a number of charges equal to the level of the spell, you can store a number of charges equal to 5.",
 				"Once per turn you can use any number of charges you want to do the following effects:",
+		},
 				{
 					"type": "list",
 					"items": [
