@@ -291,6 +291,7 @@
 				"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest.",
 				"Special infusions:."
 			],
+		},
 				{
 					"type": "table",
 					"caption": "Infusions",
