@@ -387,29 +387,30 @@
 					"Arcane Shield: This shield is worn on the arm like a bracelet. It can be activated and deactivated with an object interaction this will count as don and doff your shield making your hand free. While it is active you can use your reaction to add your Intelligence modifier to your AC for the triggering attack. You can use this reaction a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
 					"Alchemical Enhancement: During a long rest, you can store a number of vials equal to you PB to store in your weapon, once per turn when you hit an enemy you can choose to spend one of the stored vials.",
 					"You can spend a number of vials equal to your PB for long rest.",
-					{
-						"type": "list",
-						"items": [
-							"- Vial of acid: On impact you apply 2d4 acid damage to the creature",
-							"- Vial of Poison: Forces the creature to a constitution save, on a failure the creature is poisoned, blinded or deafened (your choice) until the start of your next turn, on a success the creature suffers no effect.",
-							"- Vial of alchemical fire: On a hit you ignite a creature. At the start of its turn, it takes 1d6 fire damage and loses 5 feet of movement, the creature can use an action to put out the fire by passing a Dexterity save against your artificer spell DC."					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
-						]
-					}
+						{
+							"type": "list",
+							"items": [
+								"- Vial of acid: On impact you apply 2d4 acid damage to the creature",
+								"- Vial of Poison: Forces the creature to a constitution save, on a failure the creature is poisoned, blinded or deafened (your choice) until the start of your next turn, on a success the creature suffers no effect.",
+								"- Vial of alchemical fire: On a hit you ignite a creature. At the start of its turn, it takes 1d6 fire damage and loses 5 feet of movement, the creature can use an action to put out the fire by passing a Dexterity save against your artificer spell DC."					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
+							]
+						}
+					]
 				},
 				{
 					"entries": [
-						"Portable Focus: The weapon you carry can be used as an arcane focus. Additionally, once per day you can use the weapon's accumulated energy to cast a spell without the need for verbal or somatic components."
+						"Portable Focus: The weapon you carry can be used as an arcane focus. Additionally, once per day you can use the weapon's accumulated energy to cast a spell without the need for verbal or somatic components.",
 						"Special infusions:.",
-					]
-						"type": "list",
-						"items": [
-							"Light: An easy-to-use light weapon, making it ideal for fighting with 2 weapons (Cannot be infused if the weapon has the heavy property)",
-							"Thrown: A weapon with this infusion gives you the ability to make a ranged attack at the ranges of (15/30). If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
-							"Magnetism: As an action you can cause the weapon to return to your hands with this property, as long as it is on the same plane of existence as you.",
-							"Versatile: You have the ability to use this weapon two-handed and increase the damage die (A d4→d6→d8→d10→d12). (Cannot be used if the weapon has the light or two handed property).",
-							"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
-						]
-					}
+						{
+							"type": "list",
+							"items": [
+								"Light: An easy-to-use light weapon, making it ideal for fighting with 2 weapons (Cannot be infused if the weapon has the heavy property)",
+								"Thrown: A weapon with this infusion gives you the ability to make a ranged attack at the ranges of (15/30). If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
+								"Magnetism: As an action you can cause the weapon to return to your hands with this property, as long as it is on the same plane of existence as you.",
+								"Versatile: You have the ability to use this weapon two-handed and increase the damage die (A d4→d6→d8→d10→d12). (Cannot be used if the weapon has the light or two handed property).",
+								"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
+							]
+						}
 					]
 				}
 			]
