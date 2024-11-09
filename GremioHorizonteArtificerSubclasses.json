@@ -319,7 +319,7 @@
 							"15",
 							"3",
 							"4 (basket)"
-						],
+						]
 					]
 				},
 				{
@@ -393,8 +393,9 @@
 							"- Vial of Poison: Forces the creature to a constitution save, on a failure the creature is poisoned, blinded or deafened (your choice) until the start of your next turn, on a success the creature suffers no effect.",
 							"- Vial of alchemical fire: On a hit you ignite a creature. At the start of its turn, it takes 1d6 fire damage and loses 5 feet of movement, the creature can use an action to put out the fire by passing a Dexterity save against your artificer spell DC."					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
 						]
-					},
-					{
+					}
+				},
+				{
 					"entries": [
 						"Portable Focus: The weapon you carry can be used as an arcane focus. Additionally, once per day you can use the weapon's accumulated energy to cast a spell without the need for verbal or somatic components."
 						"Special infusions:.",
@@ -410,6 +411,7 @@
 					}
 					]
 				}
+			]
 		},
 		{
 			"name": "Apocalyptic Metamorphosis",
