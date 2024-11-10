@@ -1029,15 +1029,15 @@
 			"entries": [
 				"At 9th level, you learn to use the energy of your spells, transforming it into energy that you can use in combat. You can use your bonus action to consume a spell slot gaining a number of charges equal to the level of the spell, you can store a number of charges equal to 5.",
 				"Once per turn you can use any number of charges you want to do the following effects:",
-			{
-				"type": "list",
-				"items": [
-					"Paralyzing blow: When you hit with an attack you can use the amount of charges you want to power your attack, you do an extra 1d8 lightning damage for each charge you consume. If you use at least 3 charges you force the creature to make a Strength saving throw against your artificer spell DC. On a failed save, the creature is prone and receives the damage. On a successful one, it does not suffer any effect but it receives the damage. If you use the 5 charges the creature makes the seving throw with disadvantage.",
-					"Emergency Shield: When you receive damage, you can use your reaction consuming at least one charge, with which you are covered by number of temporary hit points equal to half your artificer level (rounded up). You can choose to use more charges, for each extra charge you consume you add your PB to the temporary hit points. If you consume at least 3 charges you also add your Intelligence modifier once.",
-					"Assisted Strike: With a bonus action, you energize your weapon using at least one charge to make it extremely precise, on your next attack you add a +2 bonus to the attack, for each extra charge you use you add an extra +1 to the attack. If you spend 5 charges you make the attack with advantage.",
-					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
-				]
-			}
+				{
+					"type": "list",
+					"items": [
+						"Paralyzing blow: When you hit with an attack you can use the amount of charges you want to power your attack, you do an extra 1d8 lightning damage for each charge you consume. If you use at least 3 charges you force the creature to make a Strength saving throw against your artificer spell DC. On a failed save, the creature is prone and receives the damage. On a successful one, it does not suffer any effect but it receives the damage. If you use the 5 charges the creature makes the seving throw with disadvantage.",
+						"Emergency Shield: When you receive damage, you can use your reaction consuming at least one charge, with which you are covered by number of temporary hit points equal to half your artificer level (rounded up). You can choose to use more charges, for each extra charge you consume you add your PB to the temporary hit points. If you consume at least 3 charges you also add your Intelligence modifier once.",
+						"Assisted Strike: With a bonus action, you energize your weapon using at least one charge to make it extremely precise, on your next attack you add a +2 bonus to the attack, for each extra charge you use you add an extra +1 to the attack. If you spend 5 charges you make the attack with advantage.",
+						"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
+					]
+				}
 			]
 		},
 				{
