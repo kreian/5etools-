@@ -287,9 +287,9 @@
 							"visible": true
 						}
 					},
-					"item": {
-							"name": "A Shield"
-						}
+					"item":[
+						"A piece of machinery"
+					]
 				}
 			],
 			"entries": [
@@ -310,16 +310,16 @@
 							"name": "Artificer",
 							"source": "TCE"
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
+						},
+						"level": 3
 					},
-					"item": {
+					"item": [
 							"name": "A Shield"
-						}
+						]
 				}
 			],
 			"entries": [
@@ -338,15 +338,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -365,15 +366,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -392,15 +394,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 9,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 9
+					},
 				}
 			],
 			"entries": [
@@ -419,15 +422,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -446,15 +450,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -491,7 +496,7 @@
 			"prerequisite": [
 				{
 					"item": [
-						"A tool kit",
+						"A Arcane Focus",
 						"A Weapon"
 					]
 				}
@@ -512,15 +517,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -549,15 +555,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -589,15 +596,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
@@ -633,14 +641,15 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
+						},
+						"level": 3
 					},
 					"item": [
 						"Melee Weapon"
@@ -756,9 +765,6 @@
 			"name": "Weapon Master",
 			"subclassFeatures": [
 				"Weapon Master|Artificer|TCE|Weapon Master|ASGH|3",
-				"Tool Proficiency|Artificer|TCE|Weapon Master|ASGH|3",
-				"Martial Training|Artificer|TCE|Weapon Master|ASGH|3",
-				"Master Craftsman|Artificer|TCE|Weapon Master|ASGH|3",
 				"Extra Attack|Artificer|TCE|Weapon Master|ASGH|5",
 				"Perfected Craftsmanship|Artificer|TCE|Weapon Master|ASGH|9",
 				"Craftsmanship Perfected Beyond!|Artificer|TCE|Weapon Master|ASGH|15"
@@ -804,6 +810,20 @@
 				"Staggering Smite",
 				"Destructive Wave",
 				"Steel Wind Strike"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Surgeon's Tools",
+			"source": "ASDFS",
+			"page": 4,
+			"type": "AT",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"entries": [
+				"Surgeons tools include scalpels, syringes, a vial of mild sedative, three rolls of gauze, and a bonesaw. These tools weigh 5 lbs and cost 25 gp."
 			]
 		}
 	],
@@ -1041,7 +1061,7 @@
 				}
 			]
 		},
-				{
+		{
 			"name": "Extra Attack",
 			"source": "ASGH",
 			"page": 3,
@@ -1096,7 +1116,11 @@
 				"A weapons master is a type of craftsman who masters forging and the complexity of arcane engineering to break out of the molds of normal weapons and create truly unique works of engineering, capable of things that other weapons cannot.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master Craftsman|Artificer|TCE|Weapon Master|ASGH|3"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Weapon Master|ASGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Weapon Master Spells|Artificer|TCE|Weapon Master|ASGH|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -1104,18 +1128,14 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Weapon Master|ASGH|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Weapon Master Spells|Artificer|TCE|Weapon Master|ASGH|3"
+					"subclassFeature": "Master Craftsman|Artificer|TCE|Weapon Master|ASGH|3"
 				}
 			]
 		},
 		{
 			"name": "Master Craftsman",
 			"source": "ASGH",
-			"page": 3,
+			"page": 2,
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Weapon Master",
@@ -1161,7 +1181,13 @@
 						"Expandable Range: As a bonus action you can expand the range of your weapon by 5 feet. Additionally, as an action you can force all creatures you choose within 10 ft of you to make a Dexterity saving throw against your artificer spell DC. On a failed save, they receive a number of d6 equal to your PB + intelligence modifier of the weapon damage, or half as much damage on a successful one. You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge with after a long rest.",
 						"Capture System: As an action you make an attack with the weapon that has this infusion, on a successful hit you force the creature to make a Dexterity saving throw against your artificer spell DC. On a failed save, the creature is trapped by your weapon and is restrained by this way. If the attack is a melee weapon attack you can choose whether to keep the weapon in your hands or fix it 5 ft from the creature at a point of your choice, if it is a range attack with a thrown weapon you can only choose the last option. The trapped creature can still use its movement and move within the range of the weapon, until the effect ends the weapon cannot be used for any type of action and interaction, a trapped creature receives a number of d4 equal to your PB of lightning damage at the start of its turn.",
 						"Reinforced structure: Once per turn when you hit with an attack, you can activate this effect, you do an extra d4 of weapon damage and you also force whoever you hit to make a Strength saving throw against your artificer spell DC. On a successful save, it doesn't suffer any effect, and on a failed one, you choose between: - Reduce its speed by half, - Push it 10 ft, You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
-						"Trigger device: You install an ammunition trigger of any type on your weapon, you can change your attacks for those of this new weapon."
+						"Trigger device: You install an ammunition trigger of any type on your weapon, you can change your attacks for those of this new weapon.",
+						"Normal infusions:",
+						"Light: An easy-to-use light weapon, making it ideal for fighting with 2 weapons **Cannot be infused if the weapon has the heavy property**",
+						"Thrown: A weapon with this infusion gives you the ability to make a ranged attack at the ranges of **15/30**. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
+						"Magnetism: As an action you can cause the weapon to return to your hands with this property, as long as it is on the same plane of existence as you.",
+						"Versatile: You have the ability to use this weapon two-handed and increase the damage die **A d4→d6→d8→d10→d12**. **Cannot be used if the weapon has the light or two handed property**.",
+						"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
 					]
 				}
 			]
@@ -1169,7 +1195,7 @@
 		{
 			"name": "Martial Training",
 			"source": "ASGH",
-			"page": 3,
+			"page": 2,
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Weapon Master",
