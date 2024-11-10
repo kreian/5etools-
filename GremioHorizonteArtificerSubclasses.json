@@ -757,10 +757,11 @@
 			"subclassFeatures": [
 				"Weapon Master|Artificer|TCE|Weapon Master|ASGH|3",
 				"Tool Proficiency|Artificer|TCE|Weapon Master|ASGH|3",
-				"Eldritch Ordnance|Artificer|TCE|Weapon Master|ASGH|5",
-				"Dread Pact Magic|Artificer|TCE|Weapon Master|ASGH|9",
-				"Infernal Dread|Artificer|TCE|Weapon Master|ASGH|9",
-				"Apocalyptic Metamorphosis|Artificer|TCE|Weapon Master|ASGH|15"
+				"Martial Training|Artificer|TCE|Weapon Master|ASGH|3",
+				"Master Craftsman|Artificer|TCE|Weapon Master|ASGH|3",
+				"Extra Attack|Artificer|TCE|Weapon Master|ASGH|5",
+				"Perfected Craftsmanship|Artificer|TCE|Weapon Master|ASGH|9",
+				"Craftsmanship Perfected Beyond!|Artificer|TCE|Weapon Master|ASGH|15"
 			],
 			"source": "ASGH",
 			"shortName": "Weapon Master",
