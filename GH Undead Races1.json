@@ -2,619 +2,1241 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "LichkinGH",
-				"abbreviation": "Lchkn",
-				"full": "Lichkins",
+				"json": "ASGH",
+				"abbreviation": "AS:GH",
+				"full": "Artificer Subclasses - GREMIO HORIZONTEt",
 				"authors": [
-					"Gremio Horizonte"
+					"GREMIO HORIZONTE,
+					"Playtesters"
+				],
+				"convertedBy": [
+					"T_Docgy"
 				],
 				"version": "1.0",
-				"url": "https://www",
-				"color": "d4b6ac"
-			},
-			{
-				"json": "GnollGH",
-				"abbreviation": "Gnll",
-				"full": "Gnoll",
-				"authors": [
-					"Gremio Horizonte"
-				],
-				"version": "1.0",
-				"url": "https://www.",
-				"color": "8e816e"
-			},
-			{
-				"json": "PhantomGH",
-				"abbreviation": "Phtm",
-				"full": "Phantom",
-				"authors": [
-					"Gremio Horizonte"
-				],
-				"version": "1.0",
-				"url": "https://www.",
-				"color": "d7703a"
-			},
-			{
-				"json": "ZombieGH",
-				"abbreviation": "ZBy",
-				"full": "Zombie",
-				"authors": [
-					"Gremio Horizonte"
-				],
-				"version": "1.0",
-				"url": "https://www.",
-				"color": "a16644"
+				"url": "https://www.dmsguild.com/product/375150/Dark-Fantasy-Artificer-Subclasses?buy_now=0",
+				"dateReleased": "2024-10-25",
+				"color": "9932CC"
 			}
 		],
-		"dateAdded": 1584641909,
+		"dateAdded": 1639755927,
 		"dateLastModified": 1729630006,
-		"_dateLastModifiedHash": "de38f1cd21",
+		"_dateLastModifiedHash": "af03643c44",
 		"edition": "classic"
 	},
-	"race": [
+	"monster": [
 		{
-			"name": "Lichkin",
-			"source": "LichkinGH",
-			"ability": [
-				{
-					"str": 0,
-					"con": 0,
-					"int": 2,
-					"wis": 1
-				}
-			],
+			"name": "Composite Golem",
+			"source": "ASGH",
+			"page": 5,
+			"summonedByClass": "Artificer|TCE",
 			"size": [
 				"M"
 			],
-			"speed": 25,
-			"traitTags": [
-				"Skill Proficiency",
-				"undead Race"
+			"type": "construct",
+			"ac": [
+				{
+					"special": "14 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your artificer level (the golem has a number of Hit Dice [d8s] equal to your artificer level)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 8,
+			"con": 15,
+			"int": 8,
+			"wis": 11,
+			"cha": 6,
+			"save": {
+				"str": "+3 plus PB",
+				"con": "+2 plus PB"
+			},
+			"skill": {
+				"athletics": "+4 plus PB",
+				"perception": "+0 plus PB × 2",
+				"intimidation": "-2 plus PB × 2"
+			},
+			"passive": "10 + (PB × 2)",
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"resist": [
+				"lightning",
+				"necrotic",
+				"poison"
+			],
+			"pbNote": "equals your bonus",
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target you can see. {@h}{@damage 1d8 + PB} bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Grounding Bolts",
+					"entries": [
+						"When the golem takes lightning damage, it gains temporary hit points equal to the damage it takes. As part of the same reaction, a creature within 30 feet of your golem must succeed on a Dexterity saving throw against your artificer spell save DC or take lightning damage equal to the temporary hit points gained. On a success, the creature takes half as much lightning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Infernal Engines",
+			"source": "ASGH",
+			"caption": "Infernal Engines",
+			"colLabels": [
+				"Vehicles",
+				"Speed**",
+				"Traveling Speed**",
+				"Passengers*",
+				"Cargo*",
+				"AC",
+				"HP",
+				"Damage Threshold*",
+				"Level Requirement",
+				"Dimensions (LxW)"
+			],
+			"colStyles": [
+				"col-2 text-left",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center"
+			],
+			"rows": [
+				[
+					"Chariot",
+					"60 ft.",
+					"10 mph",
+					"0",
+					"½ ton",
+					"13",
+					"50",
+					"-",
+					"3",
+					"5x5 feet"
+				],
+				[
+					"Wagon",
+					"40 ft.",
+					"8 mph",
+					"8",
+					"3 ton",
+					"11",
+					"80",
+					"-",
+					"3",
+					"10x5 feet"
+				],
+				[
+					"Rowboat",
+					"30 ft.",
+					"1½ mph",
+					"3",
+					"½ ton",
+					"10",
+					"50",
+					"-",
+					"3",
+					"10x5 feet"
+				],
+				[
+					"Carriage",
+					"60 ft.",
+					"10 mph",
+					"4",
+					"2½ ton",
+					"13",
+					"100",
+					"5",
+					"6",
+					"10x5 feet"
+				],
+				[
+					"Longboat",
+					"50 ft.",
+					"7 mph",
+					"10",
+					"10 ton",
+					"14",
+					"200",
+					"10",
+					"10",
+					"60x15 feet"
+				],
+				[
+					"Armored Carriage",
+					"40 ft.",
+					"8 mph",
+					"4",
+					"1 ton",
+					"15",
+					"150",
+					"10",
+					"14",
+					"60x15 feet"
+				],
+				[
+					"Hot-Air Balloon",
+					"60 ft.",
+					"10 mph",
+					"5",
+					"½ ton",
+					"13",
+					"100",
+					"5",
+					"14",
+					"10x10 feet (basket)"
+				]
+			],
+			"footnotes": [
+				"* Refer to pages {@book 118-120 of the DMG|DMG|-1|Owning a Ship} for a detailed explanation.",
+				"** Speeds for vehicles moving in/on their originally intended medium (water, air, ground)."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Emergency Shield",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
 			],
 			"entries": [
+				"At level 15 you further improve your ability to harness the remaining energy of your spells. You start the day with 3 stored charges and the maximum you can reach increases to 8, although you still cannot spend more than 5 at a time on a skill.",
+				"Once per turn you can use any number of charges you want to do the following effects:",
 				{
-					"name": "Age",
-					"entries": [
-						"Lichkin are created and do not age beyond that point. They may experience some bodily deterioration, but cannot die of age."
-					],
-					"type": "entries"
+					"type": "list",
+					"items": [
+						"Now as long as you have the temporary hit points of this feature, you gain resistances to bludgeoning, slashing and piercing damage. {@condition resistence} if you have spent a minimum of 3 charges in the reaction."
+					]
 				},
+				"At 9th level, you learn to use the energy of your spells, transforming it into energy that you can use in combat. You can use your bonus action to consume a spell slot gaining a number of charges equal to the level of the spell, you can store a number of charges equal to 5.",
+				"Once per turn you can use any number of charges you want to do the following effects:",
 				{
-					"name": "Alignment",
-					"entries": [
-						"These creatures have a tendency toward evil due to the nature of liches. However, they are still beings that often retain a semblance of their former selves, allowing them to be able to choose their own paths and alignments."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Size",
-					"entries": [
-						"Most lichkin look like withered versions of their own race and are thus slightly smaller/lighter. Your size is Medium or Small."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only 50 shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Undead Nature",
-					"entries": [
-						"You are immune to poison damage, exhaust condition and you can't be poisoned. You don't need to breath or sleep , and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Lich Knowledge",
-					"entries": [
-						"With a fraction of a wizard's soul comes great knowledge. You are proficient in one of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Medicine}, {@skill Perception}Investigation, {@skill Perception}, {@skill Religion} ."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Lich Magic",
-					"entries": [
-						"You have a bit of magic gained from the lich of origin. You know one cantrip from the Wizard Spell List of your choice. Beginning at 3rd level, you know and can cast one 1st-level spell from the list. At 5th level, you know and can cast one 2nd-level spell from the list. You can't change these spells once you've chosen them. You can cast these spells at their lowest level, using no spell slot. Once you cast any of these spells, you can't cast it again with this feature until you finish a long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Miasmaborn",
-					"entries": [
-						"Your creator knew that as an undead you could not heal by traditional means, but your arcane nature brought an unexpected advantage. You are capable of absorbing the leftover magic that lingers after a spell is cast. When you see or hear someone casting a spell within 30 feet of you you can heal yourself a number of hit points equals to the double of the spell slot spent to cast it. If that spell belongs to the school of necromancy you gain double that amount."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one language of your choice that the original lich may have spoken."
-					],
-					"type": "entries"
+					"type": "list",
+					"items": [
+						"When you receive damage, you can use your reaction consuming at least one charge, with which you are covered by number of temporary hit points equal to half your artificer level **rounded up**. You can choose to use more charges, for each extra charge you consume you add your PB to the temporary hit points. If you consume at least 3 charges you also add your Intelligence modifier once."
+					]
 				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 82,
-				"heightMod": "2d8",
-				"baseWeight": 200,
-				"weightMod": "2d8"
-			},
-			"fluff": {
-				"entries": [
-					{
-						"type": "quote",
-						"entries": [
-							"\"dadad!\" - R"
-						]
-					},
-					"Created by an evil being, lichkin are servants of these evil beings, the lich. These beings, created with arcane magic, are meant to help the lich in their experiments, serve as slaves or simply as puppets that they use for their evil purposes. Although it was believed that a lichkin would die when its master was destroyed, this was not true, since when a lich dies, its creations finally experience what freedom is.",
-					"Usually they prefer to stay together and be nomads, trying to find the purpose of their life, others instead, follow the ambitious steps of their creators, whatever the case may be. Their existence is rare and their presence is usually a sign of the existence of a lich nearby."
-				]
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"any": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"Arcana": true,
-					"History": true,
-					"Insight": true,
-					"Medicine": true,
-					"Perception": true,
-					"Investigation": true,
-					"Religion": true			
-				}
-			],
-			"age": {
-				"mature": 18,
-				"max": 9000
-			}
+			]
 		},
 		{
-			"name": "Gnoll",
-			"source": "GnollGH",
-			"ability": [
+			"name": "Shield of the Guardian",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
 				{
-					"str": 2,
-					"dex": 1
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					},
+					"item": {
+							"name": "A Shield"
+						}
 				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"traitTags": [
-				"Skill Proficiency",
-				"Natural Weapon",
-				"Monstrous Race"
 			],
 			"entries": [
+				"With a shield that has this infusion on your turn as a bonus action, you anchor next to your shield in the position you are in, your movement speed is reduced to 0, your shield stops applying AC and in return any creature that you you choose within 10ft behind of you receives the half cover effects until the beginning of your next turn. You can use this upgrade a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
+			]
+		},
+		{
+			"name": "Arcane Shield",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
 				{
-					"name": "Age",
-					"entries": [
-						"Pups reach adulthood around 8 years of age. Due to their violent lifestyle many will be killed when they start showing signs of aging, around 30 years of age. Their full life expectancy is not known."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Alignment",
-					"entries": [
-						"Gnolls do not follow any sort of code or rules; for the most part they are chaotic in nature. Due to their demonic connection many gnolls tend towards evil alignments."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Size",
-					"entries": [
-						"Gnolls tend to be around 7 feet. They generally weigh between 250 and 310 lbs. Your size is medium."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Your fiendish heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Keen Hearing and Smell",
-					"entries": [
-						"Due to your keen senses, you are proficient with the {@skill Perception} skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Naturally Equipped",
-					"entries": [
-						"You are never unarmed. Your jaws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Rampage",
-					"entries": [
-						"When you reduce a creature to 0 hit points with a melee attack on your turn, you can take a bonus action to move up to half your speed and make a bite attack."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Howl of the Pack",
-					"entries": [
-						"As a bonus action, choose a friendly creature who can see or hear you within 30 feet. It can use its reaction to make one weapon attack. After you use this feature, you can't use it again until you complete a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Gnoll."
-					],
-					"type": "entries"
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					},
+					"item": {
+							"name": "A Shield"
+						}
 				}
 			],
-			"heightAndWeight": {
-				"baseHeight": 80,
-				"heightMod": "2d6",
-				"baseWeight": 210,
-				"weightMod": "2d4"
-			},
-			"fluff": {
-				"entries": [
-					"Gnoll legends trace the origin of their species back to a time when the demon lord Yeenoghu found his way to the Material Plane and ran amok. Packs of ordinary hyenas followed in his wake, scavenging the demon lord's kills. Those hyenas were transformed into the first gnolls, parading after Yeenoghu until he was banished back to the Abyss. The gnolls then scattered across the face of the world, a dire reminder of demonic power.",
-					"This is the tale gnoll mothers tell their pups and the story the scourge uses to exhort his troops. Whether it is truth or mere legend, it is easy to see the inspiration for the myth. A gnoll looks much like a humanoid hyena and shares many traits with the animal, including its haunting laughter, and the strength and savagery of these creatures is enough to suggest demonic blood; the typical gnoll band strikes without fear or mercy, tearing into enemies with the fury of fiends incarnate.",
-					{
-						"type": "entries",
-						"name": "Pack Mentality",
-						"entries": [
-							"In spite of the savage nature of the gnolls, there are some aspects to their culture that are not inherently repulsive. Gnolls place a very strong value on family for instance, respecting blood ties perhaps more than any other aspect of a relationship. Though gnolls within a pack will commonly fight with each other for dominance, these battles are quickly forgotten after their resolution, and in most situations, gnolls of the same bloodline are loyal friends and allies to one another. These bloodlines are almost always traced maternally, through the female line.",
-							"This loyalty to family is particularly obvious during combat, either with rival gnoll packs or other races. Gnolls who fight side by side regularly throw away personal glory in order to help their brethren. Perhaps most surprisingly, when a gnoll is separated from their clan and family their instinctive need for such blood ties leads them to form a surrogate \"pack\" from those whom they choose to befriend. To these unlikely allies the gnoll is as loyal and faithful as they would be to their own brothers or sisters, embracing the outsiders as if they were family.",
-							"While all gnolls have an innate tendency for collecting souvenirs and trophies, nomadic packs, particularly the savage ones who have little contact with other races except during wartime, find few other ways to acquire technology, having crafted a handful of tools of their own. The result of this is that most gnolls rely on the other races as their source of wealth and technology; which extends to arms and weaponry, giving gnoll armour a unique aesthetic where each suit is typically kitbashed together from scavenged pieces found either on victims or abandoned.",
-							"Gnolls of all kinds have an affinity for hyenas, who many see as their brethren and whom they keep as pets or for hunting."
-						]
+			"entries": [
+				"This shield is worn on the arm like a bracelet. It can be activated and deactivated with an object interaction this will count as don and doff your shield making your hand free. While it is active you can use your reaction to add your Intelligence modifier to your AC for the triggering attack. You can use this reaction a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
+			]
+		},
+		{
+			"name": "Paralyzing blow",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you hit with an attack you can use the amount of charges you want to power your attack, you do an extra 1d8 lightning damage for each charge you consume. If you use at least 3 charges you force the creature to make a Strength saving throw against your artificer spell DC. On a failed save, the creature is prone {@condition prone} and receives the damage. On a successful one, it does not suffer any effect but it receives the damage. If you use the 5 charges the creature makes the seving throw with disadvantage."
+			]
+		},
+		{
+			"name": "Assisted Strike",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"With a bonus action, you energize your weapon using at least one charge to make it extremely precise, on your next attack you add a +2 bonus to the attack, for each extra charge you use you add an extra +1 to the attack. If you spend 5 charges you make the attack with advantage."
+			]
+		},
+		{
+			"name": "Contained Energy",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 9,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"When making a skill check that uses a physical stat **strength, dexterity, constitution** you can use your reaction to spend at least one charge to add half of your PB **rounded up** to the skill check per charge consumed."
+			]
+		},
+		{
+			"name": "Expandable Range",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"As a bonus action you can expand the range of your weapon by 5 feet. Additionally, as an action you can force all creatures you choose within 10 ft of you to make a Dexterity saving throw against your artificer spell DC. On a failed save, they receive a number of d6 equal to your PB + intelligence modifier of the weapon damage, or half as much damage on a successful one. You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge with after a long rest."
+			]
+		},
+		{
+			"name": "Capture System",
+			"source": "ASDFS",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"Using this infusion, you can choose an additional macabre module to upgrade your composite golem when you finish a long rest. It gains the benefit of this module until you use this infusion again to choose a different module.",
+				"Starting at 9th level, you can choose two additional macabre modules to your composite golem when you finish a long rest."
+			]
+		},
+		{
+			"name": "Enhanced Tools",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"A tool kit"
+					]
+				}
+			],
+			"entries": [
+				"This magic tool kit grants a +2 bonus to ability checks that add proficiency with the tool kit to the roll.",
+				"This bonus increases to +3 when you reach 10th level in this class."
+			]
+		},
+		{
+			"name": "Portable Focus",
+			"source": "ASGH",
+			"page": 7,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"A tool kit",
+						"A Weapon"
+					]
+				}
+			],
+			"entries": [
+				"The weapon you carry can be used as an arcane focus. Additionally, once per day you can use the weapon's accumulated energy to cast a spell without the need for verbal or somatic components."
+			]
+		},
+		{
+			"name": "Reinforced structure",
+			"source": "ASGH",
+			"page": 6,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"Once per turn when you hit with an attack, you can activate this effect, you do an extra d4 of weapon damage and you also force whoever you hit to make a Strength saving throw against your artificer spell DC. On a successful save, it doesn't suffer any effect, and on a failed one, you choose between:",
+				{
+					"type": "list",
+					"items": [
+						"Reduce its speed by half.",
+						"Push it 10 ft."
+					],
+					"entries": [
+						"You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Normal infusions",
+			"source": "ASGH",
+			"page": 6,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"Starting at 3rd level, you can add the following properties to any melee weapon or shield as long as it is magical or you apply an artificer infusion to it. The properties are divided into special and common infusions, a different type of artificer infusion, you can distribute them as you want as long as you do not exceed the maximum total of modifications. Furthermore, infusions cannot be repeated in any weapon.",
+				{
+					"type": "list",
+					"items": [
+						"Light: An easy-to-use light weapon, making it ideal for fighting with 2 weapons **Cannot be infused if the weapon has the heavy property**",
+						"Thrown: A weapon with this infusion gives you the ability to make a ranged attack at the ranges of **15/30**. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon.",
+						"Magnetism: As an action you can cause the weapon to return to your hands with this property, as long as it is on the same plane of existence as you.",
+						"Versatile: You have the ability to use this weapon two-handed and increase the damage die **A d4→d6→d8→d10→d12**. **Cannot be used if the weapon has the light or two handed property**.",
+						"Storm Engine: You can change your weapon's damage to lightning when making an attack but before knowing the result of the roll."
+					],
+					"entries": [
+						"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Special infusions",
+			"source": "ASGH",
+			"page": 6,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"Starting at 3rd level, you can add the following properties to any melee weapon or shield as long as it is magical or you apply an artificer infusion to it. The properties are divided into special and common infusions, a different type of artificer infusion, you can distribute them as you want as long as you do not exceed the maximum total of modifications. Furthermore, infusions cannot be repeated in any weapon.",
+				{
+					"type": "list",
+					"items": [
+						"Expandable Range.",
+						"Capture System",
+						"Reinforced structure",
+						"Shield of the Guardian",
+						"Arcane Shield",
+						"Alchemical Enhancement",
+						"Portable Focus"
+						
+						
+					],
+					"entries": [
+						"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Trigger device",
+			"source": "ASGH",
+			"page": 6,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
 					},
-					{
-						"type": "entries",
-						"name": "Gnoll Names",
-						"entries": [
-							"First names have a flow-y yet growl-like sound. Surnames are always the name of the pack they belong to. Pack names will be compounded words. They can describe either the members of the pack, or where that pack lives.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Male Names",
-										"entries": [
-											"Dagnyr, Dhyrn, Doryc, Ghyrryn, Gnasc, Gnoryc, Gnyrn, Hyrn, Lhoryn, Lhyr, Mognyr, Sorgnyn, Thyrn, Toryc, Yrgnyn, Yrych"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Female Names",
-										"entries": [
-											"Dagnyra, Gnara, Gnora, Gnyrl, Hyra, Hyrgna, Lhyra, Lhyrl, Malgna, Myrl, Sargna, Shyrla, Tarnyra, Yrgna"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Pack Names",
-										"entries": [
-											"Blackpaw, Mosshide, Mudsnout, Palemane, Redridge, Riverpaw, Rot Hide, Savage-Hill, Shadowhide, Stinkpelt, Wildpaw, Woodpaw"
-										]
-									}
-								]
-							}
+					"item": [
+						"Melee Weapon"
+					]
+				}
+			],
+			"entries": [
+				"You install an ammunition trigger of any type on your weapon, you can change your attacks for those of this new weapon.",
+				{
+					"type": "list",
+					"items": [
+						"Weapon,  Range. A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range",
+						"Firearm, 1d4 piercing, Ammunition. You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition, up to a maximum of 6 bullets, after that the weapon must be reloaded with the Loading property",
+						"20/60 ft. Special: You can use ammunition of any type (arrows, sling bullets, or firearm bullets) the weapon converts them into useful ammunition and if you have the magic stone cantrip you can infuse 3 ammunition that becomes a d6 + Intelligence modifier and has a range of 60 ft, Loading. Because of the time required to load this weapon you need an action, reaction or bonus action to reload."
+					]
+				}
+			]
+		},
+		{
+			"name": "Alchemical Enhancement",
+			"source": "ASGH",
+			"page": 6,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"level": 3,
+						"subclass": {
+							"name": "Weapon Master",
+							"source": "ASGH",
+							"visible": true
+						}
+					},
+					"item": [
+						"An empty vial"
+					]
+				}
+			],
+			"entries": [
+				"During a long rest, you can store a number of vials equal to you PB to store in your weapon, once per turn when you hit an enemy you can choose to spend one of the stored vials.",
+						"You can spend a number of vials equal to your PB for long rest.",
+				{
+					"type": "list",
+					"name": "Producible Potions (3rd-Level Artificer)",
+					"items": [
+						"{@item potion of Vial of acid}",
+						"{@item potion of Vial of Poison}",
+						"{@item potion of alchemical fire"
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Reanimator",
+			"subclassFeatures": [
+				"Reanimator|Artificer|TCE|Reanimator|ASGH|3",
+				"Enlivening Discharge|Artificer|TCE|Reanimator|ASGH|5",
+				"Reanimate Dead|Artificer|TCE|Reanimator|ASGH|9",
+				"Spark of Life|Artificer|TCE|Reanimator|ASGH|15"
+			],
+			"source": "ASGH",
+			"shortName": "Reanimator",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"cure wounds",
+							"witch bolt"
+						],
+						"5": [
+							"gentle repose",
+							"hold person"
+						],
+						"9": [
+							"revivify",
+							"call lightning"
+						],
+						"13": [
+							"storm sphere|XGE",
+							"summon construct|TCE"
+						],
+						"17": [
+							"danse macabre|XGE",
+							"raise dead"
 						]
 					}
-				]
-			},
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"gnoll|mm": true
 				}
 			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
-			"age": {
-				"mature": 8,
-				"max": 60
-			}
+			"subclassSpells": [
+				"cure wounds",
+				"witch bolt",
+				"gentle repose",
+				"hold person",
+				"revivify",
+				"call lightning",
+				"storm sphere|XGE",
+				"summon construct|TCE",
+				"danse macabre|XGE",
+				"raise dead"
+			]
 		},
 		{
-			"name": "Phantom",
-			"source": "PhantomGH",
-			"ability": [
-				{
-					"cha": 2,
-					"int": 1
-				}
+			"name": "Weapon Master",
+			"subclassFeatures": [
+				"Weapon Master|Artificer|TCE|Weapon Master|ASGH|3",
+				"Tool Proficiency|Artificer|TCE|Weapon Master|ASGH|3",
+				"Eldritch Ordnance|Artificer|TCE|Weapon Master|ASGH|5",
+				"Dread Pact Magic|Artificer|TCE|Weapon Master|ASGH|9",
+				"Infernal Dread|Artificer|TCE|Weapon Master|ASGH|9",
+				"Apocalyptic Metamorphosis|Artificer|TCE|Weapon Master|ASGH|15"
 			],
-			"size": [
-				"M",
-				"S"
-			],
-			"speed": 30,
-			"traitTags": [
-				"Skill Proficiency",
-				"Undead"
-			],
-			"entries": [
+			"source": "ASGH",
+			"shortName": "Weapon Master",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"additionalSpells": [
 				{
-					"name": "Age",
-					"entries": [
-						"You are ageless, having already died centuries ago. Your soul lingers in the Material Plane for reasons unknown."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Alignment",
-					"entries": [
-						"A phantom's alignment is dependent on the nature of its unfinished business. Strong enough to keep its presence in the Material Pane, a phantom is usually good or evil."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Size",
-					"entries": [
-						"You are Medium or Small. You choose the size when you select this race."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only 50 shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Undead Nature",
-					"entries": [
-						"You don't need to eat, drink, breathe, or sleep. You can finish a long rest in 4 hours by entering an inactive, motionless state, during which you retain consciousness."
-					],
-
-					"type": "entries"
-				}
-			],
-			"fluff": {
-				"entries": [
-				"Ghostly Form",
-					{
-						"type": "entries",
-						"name": "Ghostly Form",
-						"entries": [
-						"You are a wandering spirit, represented by the following benefits:",
-					{
-								"type": "table",
-								"caption":"benefits:",
-								"colLabels": [
-									"Quirk"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"1",
-										"-You can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage you end your turn inside an object."
-									],
-									[
-										"2",
-										"-Fly equal to your walking speed and while you are flying you can hover."
-									],
-									[
-										"3",
-										"-You are immune to disease and being poisoned, and you have immunity to poison damage."
-									],
-									[
-										"4",
-										"-You can see 30 feet into the Ethereal Plane when you are on the Material Plane, and vice versa."
-									],
-									[
-										"5",
-										"-When you take nonmagical bludgeoning, piercing, or slashing damage, you can use your reaction to gain resistance to that damage until the start of your next turn.",
-										"You can use this reaction a number of times equal to your PB, and you regain its uses after a long rest."
-									]
-								]
-							}
+					"prepared": {
+						"3": [
+							"Zephyr strike",
+							"Searing Smite"
+						],
+						"5": [
+							"Warding wind",
+							"Mirror image"
+						],
+						"9": [
+							"Thunder step",
+							"Erupthing Earth"
+						],
+						"13": [
+							"Fire shield",
+							"Staggering Smite"
+						],
+						"17": [
+							"Destructive Wave",
+							"Steel Wind Strike"
 						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Zephyr strike",
+				"Searing Smite",
+				"Warding wind",
+				"lMirror image",
+				"Thunder step",
+				"Erupthing Earth",
+				"Fire shield",
+				"Staggering Smite",
+				"Destructive Wave",
+				"Steel Wind Strike"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "smith's tools",
+			"source": "PHB",
+			"page": 4,
+			"type": "AT",
+			"rarity": "none",
+			"weight": 5,
+			"value": 25,
+			"entries": [
+				"If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Reanimator Spells",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Reanimator Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Reanimator Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell cure wounds}, {@spell witch bolt}"
+						],
+						[
+							"5th",
+							"{@spell gentle repose}, {@spell hold person}"
+						],
+						[
+							"9th",
+							"{@spell revivify}, {@spell call lightning}"
+						],
+						[
+							"13th",
+							"{@spell storm sphere|xge}, {@spell summon construct|tce}"
+						],
+						[
+							"17th",
+							"{@spell danse macabre|Xge}, {@spell raise dead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Macabre Modules",
+			"source": "ASDFS",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you can upgrade your composite golem in your idle time. When you finish a long rest, choose two macabre modules from the list below. Your golem gains the benefit of these modules until you use this feature again. Starting at 9th level, you can choose three macabre modules when you finish a long rest.",
+				{
+					"type": "entries",
+					"name": "Adamant Staples",
+					"entries": [
+						"Your composite golem's weapon attacks count as magical for the purposes of overcoming damage resistances. In addition, the golem has resistance to damage from critical hits."
+					]
 				},
 				{
 					"type": "entries",
-					"name": "Ghostly Form",
+					"name": "Beastial Components",
 					"entries": [
-						"In addition you also have the following detriments:",
-							{
-								"type": "table",
-								"caption": "detriments:",
-								"colLabels": [
-									"Quirk"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"1",
-										"-You have disadvantage in Strength checks and saving throws."
-									],
-									[
-										"2",
-										"-You can't talk, but you can use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures within 60 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 60 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required)."
-									],
-									[
-										"3",
-										"-Bludgeoning, slashing, and piercing damage you deal that doesn't come from a spell is halved."
-									],
-									[
-										"4",
-										"-You can't wear any kind of armor."
-									]
-								]
-							}
-						] 
-					},
-				{
-			"entries": [
-				{
-					"name": "Necrotic Resistance",
-					"entries": [
-						"You have resistance to necrotic damage."
-					],
-					"type": "entries"
+						"Your composite golem incorporates animal components to enhance its abilities. While this module is installed, your golem's base movement speed increases by 10 feet, it has advantage on Wisdom ({@skill Perception}) ability checks that rely on scent, and it has darkvision out to a distance of 120 feet."
+					]
 				},
 				{
-					"name": "Possession",
+					"type": "entries",
+					"name": "Electric Touch",
 					"entries": [
-						"As an action, you can possess a Humanoid corpse and bring it back to life temporarily possessing it. While possessing a body, you lose the Ghostly Form trait and your racial fly speed. You are also considered Humanoid while possessing a body. You can choose to exit the body as an action.",
-						"The state of the body you possess depends on the number of hit points you have remaining. At full health, the body looks no different that it did in life. At half health, signs of greying and decomposition become visible. At close to 0 hit points, the body looks no different than a zombie. Existing the body returns it to its decomposed state.",
-						"If you fail your death saving throws while possessing a body, you can exit the body while remaining unconscious. During this state, your death saving throws are reset and you must repeat them again. If you succeed, you also regain 1 hit point."
-					],
-					"type": "entries"
+						"Your composite golem can cast the {@spell shocking grasp} cantrip. When it casts this cantrip, it uses your spell attack modifier, counts as your level for the purposes of the cantrip's damage scaling, and scores a critical hit on a result of 19 or 20 on the attack roll."
+					]
 				},
 				{
-					"name": "Languages",
+					"type": "entries",
+					"name": "Growth Hormone",
 					"entries": [
-						"You can speak, read, and write Common and one language of your choice that you knew when you were alive."
-					],
-					"type": "entries"
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 56,
-				"heightMod": "2d10",
-				"baseWeight": 100,
-				"weightMod": "1d6"
-			},
-			"darkvision": 60,
-			"languageProficiencies": [
+						"Your composite golem's size increases to Large. Its maximum hit points increase by 2 per level you have in this class."
+					]
+				},
 				{
-					"common": true,
-					"any": true
+					"type": "entries",
+					"name": "Iron Knuckles",
+					"entries": [
+						"When your composite golem hits a creature with a slam attack, that creature must succeed on a Strength saving throw with a DC of your artificer spell save DC or be pushed 5 feet or knocked {@condition prone} (your choice)."
+					]
 				}
-			],
-			"age": {
-				"mature": 16,
-				"max": 1000
-			}
+			]
 		},
 		{
-			"name": "Zombie",
-			"source": "ZombieGH",
-			"ability": [
-				{
-					"con": 3,
-					"Str": 1,
-					"Int": -2
-				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 25,
-			"traitTags": [
-				"Skill Proficiency",
-				"Natural Weapon",
-				"Undead Race"
-			],
+			"name": "Spark of Life",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 15,
 			"entries": [
+				"Starting at 15th level, your understanding of the role that electricity has in starting and stopping life has led to improved outcomes. When you cast an artificer spell that restores hit points or deals lightning damage, roll {@damage 2d6} and add the result to the amount healed or lightning damage dealt by the spell."
+			]
+		},
+		{
+			"name": "Reanimate Dead",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 9,
+			"entries": [
+				"At 9th level, you always have the {@spell animate dead} spell prepared and can cast it without expending a spell slot. It counts as an artificer spell for you and does not count against the maximum number of spells you can prepare. When you cast the spell, the creature type of the skeletons or zombies created changes from undead to construct and has resistance to lightning damage.",
+				"Once you cast this spell without expending a spell slot, you cannot do so again until you finish a long rest.",
+				"In addition, whenever you create a construct with a spell, one can be created with a macabre module of your choice. Only one construct other than your Composite Golem can have a macabre module at any given time."
+			]
+		},
+		{
+			"name": "Enlivening Discharge",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 5,
+			"entries": [
+				"At 5th level, when your composite golem is within 60 feet of you, you can use an action to fire a bolt of empowering energy at it. When you do, it gains the following benefits for the next minute:",
 				{
-					"name": "Age",
-					"entries": [
-						"can live up to 20 years or more but rarely do so."
-					],
-					"type": "entries"
+					"type": "list",
+					"items": [
+						"It gains resistance to bludgeoning, piercing, and slashing damage.",
+						"It regains a number of hit points equal to your Proficiency Bonus at the start of each of its turns.",
+						"Its slam attack deals an additional {@damage 1d10} lightning damage."
+					]
 				},
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Modern Prometheus",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"Your transgressive experiments with life after death have borne fruit, and you have created a composite golem. It's friendly to you and your companions and obeys your commands. See its game statistics in the {@creature Composite Golem|ASDFS} stat block, which uses your proficiency bonus (PB) in several places. Your composite golem is covered in the stitches and staples necessary to keep the various body parts it's composed of attached to one another.",
+				"In combat, the golem shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger. If you are {@condition incapacitated}, the golem can take any action of its choice, not just {@action Dodge}.",
+				"If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your surgeon's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The golem returns to life after 1 minute with all its hit points restored.",
+				"At the end of a long rest, you can create a new composite golem if you have surgeon's tools and spare parts with you. If you already have a golem from this feature, the first one immediately perishes. The composite golem also perishes if you die."
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item surgeon's tools|ASDFS}. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Craftsmanship Perfected Beyond!",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 15,
+			"entries": [
+				"At level 15 you further improve your ability to harness the remaining energy of your spells. You start the day with 3 stored charges and the maximum you can reach increases to 8, although you still cannot spend more than 5 at a time on a skill.",
 				{
-					"name": "Alignment",
-					"entries": [
-						"Prone to betrayal for their own interests. They tend to be chaotic evil."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Size",
-					"entries": [
-						"Your size is Medium."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Undead Fortitude",
-					"entries": [
-						"If damage reduces you to 0 hit points, you must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Undead Nature:",
-					"entries": [
-						"You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness. "
-					],					
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common, but when you speak you do it very slowly"
-					],
-					"type": "entries"
+					"type": "list",
+					"items": [
+						"Paralyzing blow: When you have used this feature, your weapon is bathed in energy, until the end of your next turn, your weapon deals 1d8 lightning damage on each hit.",
+						"Emergency Shield: Now as long as you have the temporary hit points of this feature, you gain resistances to bludgeoning, slashing and piercing damage if you have spent a minimum of 3 charges in the reaction.",
+						"Assisted Strike: The initial bonus changes from +2 to +4 and you gain advantage using 3 charges.",
+						"Energy contained: Now if you spend at least 3 charges, you add your proficiency bonus to the roll once again whether or not you are proficient in the skill. This modification cannot be used if you already have expertise."
+					]
 				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 56,
-				"heightMod": "2d10",
-				"baseWeight": 100,
-				"weightMod": "1d6"
-			},
-			"fluff": {
-				"entries": [
-					{
-						"type": "quote",
-						"entries": [
-							"\"Dy!\" - R-O"
-						]
-					},
-					"M."
+			]
+		},
+		{
+			"name": "Perfected Craftsmanship",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 9,
+			"entries": [
+				"At 9th level, you learn to use the energy of your spells, transforming it into energy that you can use in combat. You can use your bonus action to consume a spell slot gaining a number of charges equal to the level of the spell, you can store a number of charges equal to 5.",
+				"Once per turn you can use any number of charges you want to do the following effects:"
+			{
+				"type": "list",
+				"items": [
+					"Paralyzing blow: When you hit with an attack you can use the amount of charges you want to power your attack, you do an extra 1d8 lightning damage for each charge you consume. If you use at least 3 charges you force the creature to make a Strength saving throw against your artificer spell DC. On a failed save, the creature is prone and receives the damage. On a successful one, it does not suffer any effect but it receives the damage. If you use the 5 charges the creature makes the seving throw with disadvantage.",
+					"Emergency Shield: When you receive damage, you can use your reaction consuming at least one charge, with which you are covered by number of temporary hit points equal to half your artificer level (rounded up). You can choose to use more charges, for each extra charge you consume you add your PB to the temporary hit points. If you consume at least 3 charges you also add your Intelligence modifier once.",
+					"Assisted Strike: With a bonus action, you energize your weapon using at least one charge to make it extremely precise, on your next attack you add a +2 bonus to the attack, for each extra charge you use you add an extra +1 to the attack. If you spend 5 charges you make the attack with advantage.",
+					"Contained Energy: When making a skill check that uses a physical stat (strength, dexterity, constitution) you can use your reaction to spend at least one charge to add half of your PB (rounded up) to the skill check per charge consumed."
 				]
-			},
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"any": true
-				}
-			],
-			"age": {
-				"mature": 16,
-				"max": 1000
 			}
+			]
+		},
+				{
+			"name": "Extra Attack",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Reanimator",
+			"source": "ASGH",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"Most artificers prefer to work with chemicals or metals, but you work with flesh and bone. Other artificers are known to push boundaries in pursuit of magical advancement, but you transgress even those limits. These differences have resulted in your unique ability to manipulate the states of life and death. Others may believe these states are static, but to a reanimator they are dynamic\u2014what is living may die, and what is dead may live again.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Reanimator|ASDFS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reanimator Spells|Artificer|TCE|Reanimator|ASDFS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Modern Prometheus|Artificer|TCE|Reanimator|ASDFS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Macabre Modules|Artificer|TCE|Reanimator|ASDFS|3"
+				}
+			]
+		},
+		{
+			"name": "MWeapon Master",
+			"source": "ASGH",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"A weapons master is a type of craftsman who masters forging and the complexity of arcane engineering to break out of the molds of normal weapons and create truly unique works of engineering, capable of things that other weapons cannot.,
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Master Craftsman|Artificer|TCE|Weapon Mastert|ASGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Martial Training|Artificer|TCE|Weapon Master|ASGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Weapon Mastert|ASGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Weapon Master Spells|Artificer|TCE|Weapon Mastert|ASGH|3"
+				}
+			]
+		},
+		{
+			"name": "Master Craftsman",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Machine Cultist",
+			"subclassSource": "ASDFS",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you can add the following properties to any melee weapon or shield as long as it is magical or you apply an artificer infusion to it. The properties are divided into special and common infusions, a different type of artificer infusion, you can distribute them as you want as long as you do not exceed the maximum total of modifications. Furthermore, infusions cannot be repeated in any weapon.",
+				"If an infusion like returning weapon has a condition and you can give it to the weapon, you can infuse the weapon with returning weapon as long as you respect its requirements. You can change the modifications at the end of a long rest.",
+				{
+					"type": "table",
+					"caption": "Maximum total of modifications",
+					"colLabels": [
+						"Artificer Level",
+						"Normal",
+						"Special"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"1",
+							"2"
+						],
+						[
+							"9th",
+							"2",
+							"3"
+						],
+						[
+							"15th",
+							"3,"
+							"4"
+						]
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Special infusions:",
+						"Expandable Range: As a bonus action you can expand the range of your weapon by 5 feet. Additionally, as an action you can force all creatures you choose within 10 ft of you to make a Dexterity saving throw against your artificer spell DC. On a failed save, they receive a number of d6 equal to your PB + intelligence modifier of the weapon damage, or half as much damage on a successful one. You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge with after a long rest.",
+						"Capture System: As an action you make an attack with the weapon that has this infusion, on a successful hit you force the creature to make a Dexterity saving throw against your artificer spell DC. On a failed save, the creature is trapped by your weapon and is restrained by this way. If the attack is a melee weapon attack you can choose whether to keep the weapon in your hands or fix it 5 ft from the creature at a point of your choice, if it is a range attack with a thrown weapon you can only choose the last option. The trapped creature can still use its movement and move within the range of the weapon, until the effect ends the weapon cannot be used for any type of action and interaction, a trapped creature receives a number of d4 equal to your PB of lightning damage at the start of its turn.",
+						"Reinforced structure: Once per turn when you hit with an attack, you can activate this effect, you do an extra d4 of weapon damage and you also force whoever you hit to make a Strength saving throw against your artificer spell DC. On a successful save, it doesn't suffer any effect, and on a failed one, you choose between: - Reduce its speed by half, - Push it 10 ft, You can use this feature a number of times equal to your Proficiency Bonus and its uses recharge after a long rest.",
+						"Trigger device: You install an ammunition trigger of any type on your weapon, you can change your attacks for those of this new weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Training",
+			"source": "ASGH",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, you gain proficiency with martial weapons and when you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "ASGH",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item smith's tools}. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Weapon Master Spells",
+			"source": "ASGH",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Weapon Master",
+			"subclassSource": "ASGH",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Machine Cultist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you can prepare.",
+				{
+					"type": "table",
+					"caption": "Machine Cultist Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Zephyr strike}, {@spell Searing Smite}"
+						],
+						[
+							"5th",
+							"{@spell Warding wind}, {@spell Mirror image}"
+						],
+						[
+							"9th",
+							"{@spell Thunder step}, {@spell Erupthing Earth}"
+						],
+						[
+							"13th",
+							"{@spell Fire shield}, {@spell Staggering Smite}"
+						],
+						[
+							"17th",
+							"{@spell Destructive Wave}, {@spell Steel Wind Strike}"
+						]
+					]
+				}
+			]
 		}
-		]
-	}
-	}
 	]
 }
