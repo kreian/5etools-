@@ -316,10 +316,10 @@
 							"visible": true
 						},
 						"level": 3
-					},
-					"item": [
-						"name": "A Shield"
-					]
+						},
+						"item": [
+							"name": "A Shield"
+						]
 				}
 			],
 			"entries": [
