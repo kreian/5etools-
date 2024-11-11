@@ -285,10 +285,11 @@
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					},
-					"item":[
-						"A piece of machinery"
+						},
+				},
+				{
+					"item": [
+						"A tool kit"
 					]
 				}
 			],
@@ -317,9 +318,11 @@
 						},
 						"level": 3
 						},
-						"item": [
-							"name": "A Shield"
-						]
+				},
+				{
+					"item": [
+						"A Shield"
+					]
 				}
 			],
 			"entries": [
