@@ -332,15 +332,16 @@
 					"level": {
 						"class": {
 							"name": "Artificer",
-							"source": "TCE"
+							"source": "TCE",
+							"visible": true
 						},
-						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						}
-					}
+						},
+						"level": 3
+					},
 				}
 			],
 			"entries": [
