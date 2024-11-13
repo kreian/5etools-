@@ -363,12 +363,12 @@
 							"source": "TCE",
 							"visible": true
 						},
+						"level": 3,
 						"subclass": {
 							"name": "Weapon Master",
 							"source": "ASGH",
 							"visible": true
-						},
-						"level": 3
+						}
 					}
 				}
 			],
