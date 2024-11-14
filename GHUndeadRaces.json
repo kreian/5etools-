@@ -2,25 +2,25 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "GnollGH",
-				"abbreviation": "Gnll",
-				"full": "Gnoll",
+				"json": "SkeletonGH",
+				"abbreviation": "Skltn",
+				"full": "Skeleton",
 				"authors": [
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GH%20Undead%20Races1.json",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GHUndeadRaces.json",
 				"color": "8e816e"
 			},
 			{
 				"json": "Lichkin",
 				"abbreviation": "Lichkin",
-				"full": "Lichkins; servants of these evil beings, the lichs",
+				"full": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GHUndeadRaces.json",
 				"authors": [
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GH%20Undead%20Races1.json",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GHUndeadRaces.json",
 				"color": "d4b6ac"
 			},
 			{
@@ -31,7 +31,7 @@
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GH%20Undead%20Races1.json",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GHUndeadRaces.json",
 				"color": "d7703a"
 			},
 			{
@@ -42,7 +42,7 @@
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://www.",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GHUndeadRaces.json",
 				"color": "a16644"
 			}
 		],
@@ -52,6 +52,116 @@
 		"edition": "classic"
 	},
 	"race": [
+		{
+			"name": "Skeleton",
+			"source": "SkeletonGH",
+			"ability": [
+				{
+					"dex": 2,
+					"Con": 2,
+					"int": -1,
+					"cha": -1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"creatureTypes": [
+				"undead"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Undead Race"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"can live up to 200 years or more but rarely do so."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"These creatures have a tendency toward evil due to the nature of liches. However, they are still beings that often retain a semblance of their former selves, allowing them to be able to choose their own paths and alignments."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Brittle Bones",
+					"entries": [
+						"You are vulnerable to bludgeoning damage. Damage Resistances piercing, and slashing from nonmagical attacks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Undead Nature:",
+					"entries": [
+						"You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision:",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only 50 shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bone Memory:",
+					"entries": [
+						"Flesh fades over time but bones do not forget and your corpse now still has flashes and manias from when you were alive. You can roll a 1d6 immediately after seeing the number on the d20 on a skill check and add the number on the d6 to the test. You can use this feature a number of times equal to your proficiency rating, and you regain all expended uses when you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and other language that you and your DM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 100,
+				"weightMod": "1d6"
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"\"dadad!\" - R"
+						]
+					},
+					" nearby."
+				]
+			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any other": true
+				}
+			],
+			"age": {
+				"mature": 8,
+				"max": 600
+			}
+		},
 		{
 			"name": "Lichkin",
 			"source": "Lichkin",
@@ -160,7 +270,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"any": true
+					"any other": true
 				}
 			],
 			"skillProficiencies": [
@@ -180,171 +290,6 @@
 			}
 		},
 		{
-			"name": "Gnoll",
-			"source": "GnollGH",
-			"ability": [
-				{
-					"str": 2,
-					"dex": 1
-				}
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"traitTags": [
-				"Skill Proficiency",
-				"Natural Weapon",
-				"Monstrous Race"
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"entries": [
-						"Pups reach adulthood around 8 years of age. Due to their violent lifestyle many will be killed when they start showing signs of aging, around 30 years of age. Their full life expectancy is not known."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Alignment",
-					"entries": [
-						"Gnolls do not follow any sort of code or rules; for the most part they are chaotic in nature. Due to their demonic connection many gnolls tend towards evil alignments."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Size",
-					"entries": [
-						"Gnolls tend to be around 7 feet. They generally weigh between 250 and 310 lbs. Your size is medium."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Your fiendish heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Keen Hearing and Smell",
-					"entries": [
-						"Due to your keen senses, you are proficient with the {@skill Perception} skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Naturally Equipped",
-					"entries": [
-						"You are never unarmed. Your jaws are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Rampage",
-					"entries": [
-						"When you reduce a creature to 0 hit points with a melee attack on your turn, you can take a bonus action to move up to half your speed and make a bite attack."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Howl of the Pack",
-					"entries": [
-						"As a bonus action, choose a friendly creature who can see or hear you within 30 feet. It can use its reaction to make one weapon attack. After you use this feature, you can't use it again until you complete a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Gnoll."
-					],
-					"type": "entries"
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 80,
-				"heightMod": "2d6",
-				"baseWeight": 210,
-				"weightMod": "2d4"
-			},
-			"fluff": {
-				"entries": [
-					"Gnoll legends trace the origin of their species back to a time when the demon lord Yeenoghu found his way to the Material Plane and ran amok. Packs of ordinary hyenas followed in his wake, scavenging the demon lord's kills. Those hyenas were transformed into the first gnolls, parading after Yeenoghu until he was banished back to the Abyss. The gnolls then scattered across the face of the world, a dire reminder of demonic power.",
-					"This is the tale gnoll mothers tell their pups and the story the scourge uses to exhort his troops. Whether it is truth or mere legend, it is easy to see the inspiration for the myth. A gnoll looks much like a humanoid hyena and shares many traits with the animal, including its haunting laughter, and the strength and savagery of these creatures is enough to suggest demonic blood; the typical gnoll band strikes without fear or mercy, tearing into enemies with the fury of fiends incarnate.",
-					{
-						"type": "entries",
-						"name": "Pack Mentality",
-						"entries": [
-							"In spite of the savage nature of the gnolls, there are some aspects to their culture that are not inherently repulsive. Gnolls place a very strong value on family for instance, respecting blood ties perhaps more than any other aspect of a relationship. Though gnolls within a pack will commonly fight with each other for dominance, these battles are quickly forgotten after their resolution, and in most situations, gnolls of the same bloodline are loyal friends and allies to one another. These bloodlines are almost always traced maternally, through the female line.",
-							"This loyalty to family is particularly obvious during combat, either with rival gnoll packs or other races. Gnolls who fight side by side regularly throw away personal glory in order to help their brethren. Perhaps most surprisingly, when a gnoll is separated from their clan and family their instinctive need for such blood ties leads them to form a surrogate \"pack\" from those whom they choose to befriend. To these unlikely allies the gnoll is as loyal and faithful as they would be to their own brothers or sisters, embracing the outsiders as if they were family.",
-							"While all gnolls have an innate tendency for collecting souvenirs and trophies, nomadic packs, particularly the savage ones who have little contact with other races except during wartime, find few other ways to acquire technology, having crafted a handful of tools of their own. The result of this is that most gnolls rely on the other races as their source of wealth and technology; which extends to arms and weaponry, giving gnoll armour a unique aesthetic where each suit is typically kitbashed together from scavenged pieces found either on victims or abandoned.",
-							"Gnolls of all kinds have an affinity for hyenas, who many see as their brethren and whom they keep as pets or for hunting."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Gnoll Names",
-						"entries": [
-							"First names have a flow-y yet growl-like sound. Surnames are always the name of the pack they belong to. Pack names will be compounded words. They can describe either the members of the pack, or where that pack lives.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Male Names",
-										"entries": [
-											"Dagnyr, Dhyrn, Doryc, Ghyrryn, Gnasc, Gnoryc, Gnyrn, Hyrn, Lhoryn, Lhyr, Mognyr, Sorgnyn, Thyrn, Toryc, Yrgnyn, Yrych"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Female Names",
-										"entries": [
-											"Dagnyra, Gnara, Gnora, Gnyrl, Hyra, Hyrgna, Lhyra, Lhyrl, Malgna, Myrl, Sargna, Shyrla, Tarnyra, Yrgna"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Pack Names",
-										"entries": [
-											"Blackpaw, Mosshide, Mudsnout, Palemane, Redridge, Riverpaw, Rot Hide, Savage-Hill, Shadowhide, Stinkpelt, Wildpaw, Woodpaw"
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"gnoll|mm": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
-			"age": {
-				"mature": 8,
-				"max": 60
-			}
-		},
-		{
 			"name": "Phantom",
 			"source": "PhantomGH",
 			"ability": [
@@ -358,7 +303,7 @@
 				"S"
 			],
 			"creatureTypes": [
-				"unddead"
+				"undead"
 			],
 			"speed": 30,
 			"traitTags": [
@@ -435,7 +380,9 @@
 								],
 								[
 									"5",
-									"-When you take nonmagical bludgeoning, piercing, or slashing damage, you can use your reaction to gain resistance to that damage until the start of your next turn.",
+									"-When you take nonmagical bludgeoning, piercing, or slashing damage, you can use your reaction to gain resistance to that damage until the start of your next turn."
+								],
+								[
 									"You can use this reaction a number of times equal to your PB, and you regain its uses after a long rest."
 								]
 							]
@@ -520,25 +467,14 @@
 							"\"dadad!\" - R"
 						]
 					},
-					"Created by an evil being, lichkin are servants of these evil beings, the lich. These beings, created with arcane magic, are meant to help the lich in their experiments, serve as slaves or simply as puppets that they use for their evil purposes. Although it was believed that a lichkin would die when its master was destroyed, this was not true, since when a lich dies, its creations finally experience what freedom is.",
-					"Usually they prefer to stay together and be nomads, trying to find the purpose of their life, others instead, follow the ambitious steps of their creators, whatever the case may be. Their existence is rare and their presence is usually a sign of the existence of a lich nearby."
+					"Created by an revange being. These beings, created with arcane magic.",
+					"Usually they prefer to stay together and be nomads, trying to find the purpose of their life, others instead, follow the Angry revange, whatever the case may be. Their existence is rare and their presence is usually a sign of the existence of a lich nearby."
 				]
 			},
 			"languageProficiencies": [
 				{
 					"common": true,
-					"any": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"Arcana": true,
-					"History": true,
-					"Insight": true,
-					"Medicine": true,
-					"Perception": true,
-					"Investigation": true,
-					"Religion": true
+					"any other": true
 				}
 			],
 			"age": {
@@ -548,24 +484,22 @@
 		},
 		{
 			"name": "Zombie",
-			"source": "ZBy",
+			"source": "ZombieGH",
 			"ability": [
 				{
 					"con": 3,
-					"Str": 1,
-					"Int": -2
+					"str": 1,
+					"int": -2
 				}
 			],
 			"size": [
 				"M"
 			],
 			"creatureTypes": [
-				"unddead"
+				"undead"
 			],
 			"speed": 25,
 			"traitTags": [
-				"Skill Proficiency",
-				"Natural Weapon",
 				"Undead Race"
 			],
 			"entries": [
@@ -633,11 +567,6 @@
 			"languageProficiencies": [
 				{
 					"common": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
 				}
 			],
 			"age": {
