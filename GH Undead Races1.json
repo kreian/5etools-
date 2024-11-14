@@ -9,7 +9,7 @@
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://www.",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GH%20Undead%20Races1.json",
 				"color": "8e816e"
 			},
 			{
@@ -20,7 +20,7 @@
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://www",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GH%20Undead%20Races1.json",
 				"color": "d4b6ac"
 			},
 			{
@@ -31,7 +31,7 @@
 					"Gremio Horizonte"
 				],
 				"version": "1.0",
-				"url": "https://www.",
+				"url": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GH%20Undead%20Races1.json",
 				"color": "d7703a"
 			},
 			{
@@ -394,228 +394,248 @@
 						"You don't need to eat, drink, breathe, or sleep. You can finish a long rest in 4 hours by entering an inactive, motionless state, during which you retain consciousness."
 					],
 					"type": "entries"
-				}
+				},
+				{
+					"type": "entries",
+					"name": "Ghostly Form",
+					"entries": [
+						"You are a wandering spirit, represented by the following benefits:",
+						{
+							"type": "table",
+							"caption": "benefits:",
+							"colLabels": [
+								"Quirk"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"-You can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage you end your turn inside an object."
+								],
+								[
+									"2",
+									"-Fly equal to your walking speed and while you are flying you can hover."
+								],
+								[
+									"3",
+									"-You are immune to disease and being poisoned, and you have immunity to poison damage."
+								],
+								[
+									"4",
+									"-You can see 30 feet into the Ethereal Plane when you are on the Material Plane, and vice versa."
+								],
+								[
+									"5",
+									"-When you take nonmagical bludgeoning, piercing, or slashing damage, you can use your reaction to gain resistance to that damage until the start of your next turn.",
+									"You can use this reaction a number of times equal to your PB, and you regain its uses after a long rest."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ghostly Form",
+					"entries": [
+						"In addition you also have the following detriments:",
+						{
+							"type": "table",
+							"caption": "detriments:",
+							"colLabels": [
+								"Quirk"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"-You have disadvantage in Strength checks and saving throws."
+								],
+								[
+									"2",
+									"-You can't talk, but you can use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures within 60 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 60 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required)."
+								],
+								[
+									"3",
+									"-Bludgeoning, slashing, and piercing damage you deal that doesn't come from a spell is halved."
+								],
+								[
+									"4",
+									"-You can't wear any kind of armor."
+								]
+							]
+						}
+					]
+				},
+				{
+					"entries": [
+						{
+							"name": "Necrotic Resistance",
+							"entries": [
+								"You have resistance to necrotic damage."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Possession",
+							"entries": [
+								"As an action, you can possess a Humanoid corpse and bring it back to life temporarily possessing it. While possessing a body, you lose the Ghostly Form trait and your racial fly speed. You are also considered Humanoid while possessing a body. You can choose to exit the body as an action.",
+								"The state of the body you possess depends on the number of hit points you have remaining. At full health, the body looks no different that it did in life. At half health, signs of greying and decomposition become visible. At close to 0 hit points, the body looks no different than a zombie. Existing the body returns it to its decomposed state.",
+								"If you fail your death saving throws while possessing a body, you can exit the body while remaining unconscious. During this state, your death saving throws are reset and you must repeat them again. If you succeed, you also regain 1 hit point."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common and one language of your choice that you knew when you were alive."
+							],
+							"type": "entries"
+								]
+						}
 			],
+			"heightAndWeight": {
+				"baseHeight": 82,
+				"heightMod": "2d8",
+				"baseWeight": 200,
+				"weightMod": "2d8"
+			},
 			"fluff": {
 				"entries": [
-					"Ghostly Form",
 					{
-						"type": "entries",
-						"name": "Ghostly Form",
+						"type": "quote",
 						"entries": [
-							"You are a wandering spirit, represented by the following benefits:",
-							{
-								"type": "table",
-								"caption": "benefits:",
-								"colLabels": [
-									"Quirk"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"1",
-										"-You can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage you end your turn inside an object."
-									],
-									[
-										"2",
-										"-Fly equal to your walking speed and while you are flying you can hover."
-									],
-									[
-										"3",
-										"-You are immune to disease and being poisoned, and you have immunity to poison damage."
-									],
-									[
-										"4",
-										"-You can see 30 feet into the Ethereal Plane when you are on the Material Plane, and vice versa."
-									],
-									[
-										"5",
-										"-When you take nonmagical bludgeoning, piercing, or slashing damage, you can use your reaction to gain resistance to that damage until the start of your next turn.",
-										"You can use this reaction a number of times equal to your PB, and you regain its uses after a long rest."
-									]
-								]
-							}
+							"\"dadad!\" - R"
 						]
 					},
-					{
-						"type": "entries",
-						"name": "Ghostly Form",
-						"entries": [
-							"In addition you also have the following detriments:",
-							{
-								"type": "table",
-								"caption": "detriments:",
-								"colLabels": [
-									"Quirk"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"1",
-										"-You have disadvantage in Strength checks and saving throws."
-									],
-									[
-										"2",
-										"-You can't talk, but you can use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures within 60 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 60 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required)."
-									],
-									[
-										"3",
-										"-Bludgeoning, slashing, and piercing damage you deal that doesn't come from a spell is halved."
-									],
-									[
-										"4",
-										"-You can't wear any kind of armor."
-									]
-								]
-							}
-						]
-					},
-					{
-						"entries": [
-							{
-								"name": "Necrotic Resistance",
-								"entries": [
-									"You have resistance to necrotic damage."
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Possession",
-								"entries": [
-									"As an action, you can possess a Humanoid corpse and bring it back to life temporarily possessing it. While possessing a body, you lose the Ghostly Form trait and your racial fly speed. You are also considered Humanoid while possessing a body. You can choose to exit the body as an action.",
-									"The state of the body you possess depends on the number of hit points you have remaining. At full health, the body looks no different that it did in life. At half health, signs of greying and decomposition become visible. At close to 0 hit points, the body looks no different than a zombie. Existing the body returns it to its decomposed state.",
-									"If you fail your death saving throws while possessing a body, you can exit the body while remaining unconscious. During this state, your death saving throws are reset and you must repeat them again. If you succeed, you also regain 1 hit point."
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Languages",
-								"entries": [
-									"You can speak, read, and write Common and one language of your choice that you knew when you were alive."
-								],
-								"type": "entries"
-							}
-						],
-						"heightAndWeight": {
-							"baseHeight": 56,
-							"heightMod": "2d10",
-							"baseWeight": 100,
-							"weightMod": "1d6"
-						},
-						"darkvision": 60,
-						"languageProficiencies": [
-							{
-								"common": true,
-								"any": true
-							}
-						],
-						"age": {
-							"mature": 16,
-							"max": 1000
-						}
-					},
-					{
-						"name": "Zombie",
-						"source": "ZBy",
-						"ability": [
-							{
-								"con": 3,
-								"Str": 1,
-								"Int": -2
-							}
-						],
-						"size": [
-							"M"
-						],
-						"speed": 25,
-						"traitTags": [
-							"Skill Proficiency",
-							"Natural Weapon",
-							"Undead Race"
-						],
-						"entries": [
-							{
-								"name": "Age",
-								"entries": [
-									"can live up to 20 years or more but rarely do so."
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Alignment",
-								"entries": [
-									"Prone to betrayal for their own interests. They tend to be chaotic evil."
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Size",
-								"entries": [
-									"Your size is Medium."
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Undead Fortitude",
-								"entries": [
-									"If damage reduces you to 0 hit points, you must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Undead Nature:",
-								"entries": [
-									"You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness. "
-								],
-								"type": "entries"
-							},
-							{
-								"name": "Languages",
-								"entries": [
-									"You can speak, read, and write Common, but when you speak you do it very slowly"
-								],
-								"type": "entries"
-							}
-						],
-						"heightAndWeight": {
-							"baseHeight": 56,
-							"heightMod": "2d10",
-							"baseWeight": 100,
-							"weightMod": "1d6"
-						},
-						"fluff": {
-							"entries": [
-								{
-									"type": "quote",
-									"entries": [
-										"\"Dy!\" - R-O"
-									]
-								},
-								"M."
-							]
-						},
-						"darkvision": 60,
-						"languageProficiencies": [
-							{
-								"common": true,
-								"any": true
-							}
-						],
-						"age": {
-							"mature": 16,
-							"max": 1000
-						},
-						"raceName": "Zombie",
-						"raceSource": "ZBy"
-					}
+					"Created by an evil being, lichkin are servants of these evil beings, the lich. These beings, created with arcane magic, are meant to help the lich in their experiments, serve as slaves or simply as puppets that they use for their evil purposes. Although it was believed that a lichkin would die when its master was destroyed, this was not true, since when a lich dies, its creations finally experience what freedom is.",
+					"Usually they prefer to stay together and be nomads, trying to find the purpose of their life, others instead, follow the ambitious steps of their creators, whatever the case may be. Their existence is rare and their presence is usually a sign of the existence of a lich nearby."
 				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"Arcana": true,
+					"History": true,
+					"Insight": true,
+					"Medicine": true,
+					"Perception": true,
+					"Investigation": true,
+					"Religion": true
+				}
+			],
+			"age": {
+				"mature": 18,
+				"max": 9000
 			}
+		},
+		{
+			"name": "Zombie",
+			"source": "ZBy",
+			"ability": [
+				{
+					"con": 3,
+					"Str": 1,
+					"Int": -2
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 25,
+			"traitTags": [
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Undead Race"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"can live up to 20 years or more but rarely do so."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Prone to betrayal for their own interests. They tend to be chaotic evil."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces you to 0 hit points, you must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Undead Nature:",
+					"entries": [
+						"You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness. "
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, but when you speak you do it very slowly"
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 100,
+				"weightMod": "1d6"
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"\"Dy!\" - R-O"
+						]
+					},
+				]
+			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"age": {
+				"mature": 8,
+				"max": 60
+			}
+		},
+			"raceName": "Zombie",
+			"raceSource": "ZBy"
 		}
 	]
 }
