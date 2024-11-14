@@ -634,5 +634,19 @@
 				"max": 60
 			}
 		}
+	],
+	"language": [
+		{
+			"name": "Pandaren",
+			"source": "BBHR",
+			"type": "exotic",
+			"typicalSpeakers": [
+				"{@race Pandaren|BBHR}"
+			],
+			"script": "Chinese",
+			"entries": [
+				"Pandaren is an exotic-sounding language, similar to modern-day chinese."
+			]
+		}
 	]
 }
