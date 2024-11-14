@@ -13,9 +13,9 @@
 				"color": "8e816e"
 			},
 			{
-				"json": "Lichkin",
+				"json": "LichkinGH",
 				"abbreviation": "Lichkin",
-				"full": "https://github.com/kreian/5etools-/raw/refs/heads/Razas/GHUndeadRaces.json",
+				"full": "Lichkin",
 				"authors": [
 					"Gremio Horizonte"
 				],
@@ -164,7 +164,7 @@
 		},
 		{
 			"name": "Lichkin",
-			"source": "Lichkin",
+			"source": "LichkinGH",
 			"ability": [
 				{
 					"str": 0,
