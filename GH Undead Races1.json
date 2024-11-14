@@ -66,6 +66,9 @@
 			"size": [
 				"M"
 			],
+			"creatureTypes": [
+				"undead"
+			],
 			"speed": 25,
 			"traitTags": [
 				"Skill Proficiency",
@@ -354,6 +357,9 @@
 				"M",
 				"S"
 			],
+			"creatureTypes": [
+				"unddead"
+			],
 			"speed": 30,
 			"traitTags": [
 				"Skill Proficiency",
@@ -552,6 +558,9 @@
 			],
 			"size": [
 				"M"
+			],
+			"creatureTypes": [
+				"unddead"
 			],
 			"speed": 25,
 			"traitTags": [
